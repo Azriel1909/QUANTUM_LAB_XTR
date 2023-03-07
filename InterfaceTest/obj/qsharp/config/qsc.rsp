@@ -1,0 +1,52 @@
+--proj
+    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest"
+--build-exe
+--input
+    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/Program.qs"
+--output
+    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/obj/qsharp/"
+--references
+    "/home/ximena/.nuget/packages/azure.core/1.25.0/lib/net5.0/Azure.Core.dll"
+    "/home/ximena/.nuget/packages/azure.identity/1.5.0/lib/netstandard2.0/Azure.Identity.dll"
+    "/home/ximena/.nuget/packages/azure.quantum.jobs/1.0.0-beta.3/lib/netstandard2.0/Azure.Quantum.Jobs.dll"
+    "/home/ximena/.nuget/packages/azure.storage.blobs/12.13.1/lib/netstandard2.1/Azure.Storage.Blobs.dll"
+    "/home/ximena/.nuget/packages/azure.storage.common/12.12.0/lib/netstandard2.0/Azure.Storage.Common.dll"
+    "/home/ximena/.nuget/packages/microsoft.azure.quantum.client/0.27.258160/lib/net6.0/Microsoft.Azure.Quantum.Client.dll"
+    "/home/ximena/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    "/home/ximena/.nuget/packages/microsoft.identity.client/4.30.1/lib/netcoreapp2.1/Microsoft.Identity.Client.dll"
+    "/home/ximena/.nuget/packages/microsoft.identity.client.extensions.msal/2.18.4/lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.BondSchemas.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.entrypointdriver/0.27.258160/lib/net6.0/Microsoft.Quantum.EntryPointDriver.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsCompilationManager.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsCompiler.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsCore.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsDataStructures.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsDocumentationParser.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.qsharp.core/0.27.258160/lib/net6.0/Microsoft.Quantum.QSharp.Core.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.qsharp.foundation/0.27.258160/lib/net6.0/Microsoft.Quantum.QSharp.Foundation.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsOptimizations.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsSyntaxProcessor.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsTextProcessor.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.compiler/0.27.258160/lib/net6.0/Microsoft.Quantum.QsTransformations.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.runtime.core/0.27.258160/lib/net6.0/Microsoft.Quantum.Runtime.Core.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.simulators/0.27.258160/lib/net6.0/Microsoft.Quantum.Simulation.Common.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.simulators/0.27.258160/lib/net6.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.simulators/0.27.258160/lib/net6.0/Microsoft.Quantum.Simulators.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.standard/0.27.258160/lib/net6.0/Microsoft.Quantum.Standard.dll"
+    "/home/ximena/.nuget/packages/microsoft.quantum.targets.interfaces/0.27.258160/lib/net6.0/Microsoft.Quantum.Targets.Interfaces.dll"
+    "/home/ximena/.nuget/packages/windowsazure.storage/9.3.3/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
+    "/home/ximena/.nuget/packages/numsharp/0.20.5/lib/netstandard2.0/NumSharp.Core.dll"
+--load
+    "/home/ximena/.nuget/packages/microsoft.quantum.csharpgeneration/0.27.258160/build//../lib/net6.0/Microsoft.Quantum.CSharpGeneration.dll"
+--runtime
+    FullComputation
+--skip-monomorphization
+--package-load-fallback-folders
+    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/bin/Debug/net6.0/"
+--assembly-properties
+    DocsPackageId:InterfaceTest
+    ExecutionTarget:Any
+    AssemblyName:InterfaceTest
+    ProcessorArchitecture:Unspecified
+    TargetCapability:FullComputation
+    QSharpOutputType:QSharpExe
