@@ -30,6 +30,7 @@ namespace QuantumRNG {
         return output;
     }
 
+
     @EntryPoint() // Q# compiler
     operation SampleRandomNumber() : Int {
         let max = 1000;
