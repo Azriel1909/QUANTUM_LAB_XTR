@@ -14,17 +14,17 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":10,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":10,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"max\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":32,\"Item2\":4},\"Comments\":{\"OpeningComments\":[\" Q# compiler\"],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"max\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":37,\"Item2\":4},\"Comments\":{\"OpeningComments\":[\" Q# compiler\"],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":38,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"SampleRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs\",\"Position\":{\"Item1\":38,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
 #line hidden
 namespace QuantumRNG
 {
-    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 11, 21)]
-    public partial class GenerateRandomBit : Operation<QVoid, Result>, ICallable
+    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 12, 25)]
+    public partial class GenerateRandomBit : Operation<QVoid, Int64>, ICallable
     {
         public GenerateRandomBit(IOperationFactory m) : base(m)
         {
@@ -44,7 +44,25 @@ namespace QuantumRNG
             set;
         }
 
+        protected ICallable Microsoft__Quantum__Canon__ApplyToEach
+        {
+            get;
+            set;
+        }
+
         protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Diagnostics__DumpMachine
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Arrays__ForEach
         {
             get;
             set;
@@ -56,20 +74,38 @@ namespace QuantumRNG
             set;
         }
 
-        public override Func<QVoid, Result> __Body__ => (__in__) =>
+        protected ICallable<IQArray<Boolean>, Int64> Microsoft__Quantum__Convert__BoolArrayAsInt
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Result>, IQArray<Boolean>> Microsoft__Quantum__Convert__ResultArrayAsBoolArray
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, Int64> __Body__ => (__in__) =>
         {
 #line hidden
             {
-#line 13 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                var q = Allocate__.Apply();
+#line 14 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                var qs = Allocate__.Apply(4L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 15 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(q);
-#line 18 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                    return Microsoft__Quantum__Intrinsic__M.Apply(q);
+#line 16 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, qs));
+#line 17 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 20 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    var result = (IQArray<Result>)Microsoft__Quantum__Arrays__ForEach.Apply<IQArray<Result>>((Microsoft__Quantum__Intrinsic__M, qs));
+#line 21 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 22 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    return Microsoft__Quantum__Convert__BoolArrayAsInt.Apply(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(result));
                 }
 #line hidden
                 catch
@@ -83,7 +119,7 @@ namespace QuantumRNG
                     if (__arg1__)
                     {
 #line hidden
-                        Release__.Apply(q);
+                        Release__.Apply(qs);
                     }
                 }
             }
@@ -94,19 +130,24 @@ namespace QuantumRNG
         {
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Microsoft__Quantum__Canon__ApplyToEach = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Canon.ApplyToEach<>));
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
+            this.Microsoft__Quantum__Arrays__ForEach = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Arrays.ForEach<,>));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
+            this.Microsoft__Quantum__Convert__BoolArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Boolean>, Int64>>(typeof(global::Microsoft.Quantum.Convert.BoolArrayAsInt));
+            this.Microsoft__Quantum__Convert__ResultArrayAsBoolArray = this.__Factory__.Get<ICallable<IQArray<Result>, IQArray<Boolean>>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsBoolArray));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(Result data) => new QTuple<Result>(data);
-        public static System.Threading.Tasks.Task<Result> Run(IOperationFactory __m__)
+        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
         {
-            return __m__.Run<GenerateRandomBit, QVoid, Result>(QVoid.Instance);
+            return __m__.Run<GenerateRandomBit, QVoid, Int64>(QVoid.Instance);
         }
     }
 
-    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 21, 34)]
+    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 25, 39)]
     public partial class SampleRandomNumberInRange : Operation<Int64, Int64>, ICallable
     {
         public SampleRandomNumberInRange(IOperationFactory m) : base(m)
@@ -121,13 +162,7 @@ namespace QuantumRNG
             set;
         }
 
-        protected ICallable<QVoid, Result> GenerateRandomBit__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
+        protected ICallable<QVoid, Int64> GenerateRandomBit__
         {
             get;
             set;
@@ -136,23 +171,21 @@ namespace QuantumRNG
         public override Func<Int64, Int64> __Body__ => (__in__) =>
         {
             var max = __in__;
-#line 22 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 26 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             var output = 0L;
-#line 23 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 27 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             while (true)
             {
-#line 24 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                var bits = new QArray<Result>();
-#line 25 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 28 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                var bits = new QArray<Int64>();
+#line 29 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
                 foreach (var idxBit in new QRange(1L, Microsoft__Quantum__Math__BitSizeI.Apply(max)))
 #line hidden
                 {
-#line 26 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                    bits = QArray<Result>.Add(bits, new QArray<Result>(GenerateRandomBit__.Apply(QVoid.Instance)));
+#line 30 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+                    bits = QArray<Int64>.Add(bits, new QArray<Int64>(GenerateRandomBit__.Apply(QVoid.Instance)));
                 }
 
-#line 28 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
-                output = Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(bits?.Copy());
                 if ((output <= max))
                 {
                     break;
@@ -162,7 +195,7 @@ namespace QuantumRNG
                 }
             }
 
-#line 30 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 34 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             return output;
         }
 
@@ -170,8 +203,7 @@ namespace QuantumRNG
         public override void __Init__()
         {
             this.Microsoft__Quantum__Math__BitSizeI = this.__Factory__.Get<ICallable<Int64, Int64>>(typeof(global::Microsoft.Quantum.Math.BitSizeI));
-            this.GenerateRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Result>>(typeof(GenerateRandomBit));
-            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
+            this.GenerateRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Int64>>(typeof(GenerateRandomBit));
         }
 
         public override IApplyData __DataIn__(Int64 data) => new QTuple<Int64>(data);
@@ -182,7 +214,7 @@ namespace QuantumRNG
         }
     }
 
-    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 34, -1)]
+    [SourceLocation("/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs", OperationFunctor.Body, 39, -1)]
     public partial class SampleRandomNumber : Operation<QVoid, Int64>, ICallable
     {
         public SampleRandomNumber(IOperationFactory m) : base(m)
@@ -206,11 +238,11 @@ namespace QuantumRNG
 
         public override Func<QVoid, Int64> __Body__ => (__in__) =>
         {
-#line 35 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 40 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             var max = 1000L;
-#line 36 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 41 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             Message__.Apply(String.Format("Sampling a random number between 0 and {0}: ", max));
-#line 37 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
+#line 42 "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/Program.qs"
             return SampleRandomNumberInRange__.Apply(max);
         }
 

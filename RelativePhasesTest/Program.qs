@@ -14,7 +14,7 @@ namespace RelativePhasesTest {
     //     Reset(q);
     // }
 
-     @EntryPoint()
+    @EntryPoint()
     operation TestInterference3() : Unit {
         use q = Qubit();
         Y(q);
