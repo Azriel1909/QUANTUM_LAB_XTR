@@ -22,7 +22,7 @@ namespace QuantumRNG {
         mutable output = 0; 
         repeat {
             mutable bits = []; 
-            for idxBit in 1..BitSizeI(max) {
+            for idxBit in 1..BitSizeI(max) { 
                 set bits += [GenerateRandomBit()]; 
             }
             set output = ResultArrayAsInt(bits);
