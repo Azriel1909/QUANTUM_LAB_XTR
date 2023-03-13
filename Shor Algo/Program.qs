@@ -62,5 +62,6 @@ namespace Shor_Algo {
     // The GCD of a and N is 1
     operation PhaseEstimation(a: Int, p: Int, N: Int) : Int {
         return ExpModI((a),(p),(N));
+        
     }
 }
