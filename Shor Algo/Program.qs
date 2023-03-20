@@ -4,6 +4,12 @@ namespace Shor_Algo {
     open Microsoft.Quantum.Measurement;
     open Microsoft.Quantum.Math;
     open Microsoft.Quantum.Convert;
+    open Microsoft.Quantum.Arithmetic;
+    open Microsoft.Quantum.Oracles;
+    open Microsoft.Quantum.Random;
+    open Microsoft.Quantum.Diagnostics;
+    open Microsoft.Quantum.Characterization;
+
 
     // Shor's algorithm classical part 
     // Phase 1: Pseudo Random Number Generator
@@ -60,8 +66,133 @@ namespace Shor_Algo {
     }
     // If gcd(a, N) ≠ 1, then there is a nontrivial factor of N, so we are done.
     // The GCD of a and N is 1
-    operation PhaseEstimation(a: Int, p: Int, N: Int) : Int {
-        return ExpModI((a),(p),(N));
+    // Phase 1: Compute the period-finding to find 'r'
+    // f(x) = a^x mod N
+
+    operation phaseEstimation (randomGenerator: Int, module: Int ) : Int {
+        // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.diagnostics.fact
+        Fact(IsCoprimeI(randomGenerator,module),"The guess number is `randomGenerator`, and the mudule is `module`.");
+
+        // Storing the r found. 
+        mutable result = 1;
+
+        // Number of bits in the mudule 
+        let bits = BitSizeI(module);
+
+        let bitsPrecision = 2 * bits + 1;
+
+        mutable frequencyEstimation = 0;
+
+        set frequencyEstimation = EstimateFrequencyValue (randomGenerator, module,bits);
         
+        if  frequencyEstimation != 0 {
+            set result = periodFrequency (module, frequencyEstimation, bitsPrecision, result);
+        } else {
+            Message("Estimated frecuency was 0.");
+        }
+        return result;
+    }
+
+    operation periodFrequency (module : Int, frequencyEstimation : Int, bitsPrecision: Int, currentDivisor: Int) : Int {
+        // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.math.continuedfractionconvergenti
+        // Finds the continued fraction convergent closest to fraction with the denominator less or equal to denominatorBound
+        let (s, r) = (ContinuedFractionConvergentI(Fraction(frequencyEstimation, 2 ^ bitsPrecision), module))!;
+        let (sAbsolute, rAbsolute) = (AbsI(s), AbsI(r));
+        //  Computes the greatest common divisor of two integers.
+        return(rAbsolute * currentDivisor) / GreatestCommonDivisorI(currentDivisor, rAbsolute);
+    } 
+
+    operation EstimateFrequencyValue (randomGenerator : Int, module: Int, bits : Int) : Int {   
+        mutable frequencyEstimation = 0;
+        // ! https://learn.microsoft.com/fr-fr/qsharp/api/qsharp/microsoft.quantum.characterization.robustphaseestimation?view=qsharp-preview
+        let bitsPrecision = 2 * bits + 1;
+
+        // ! https://learn.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices
+        use eigenStateRegister = Qubit[bits];
+        
+        // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.arithmetic.littleendian
+        let eigenStateRegisterLittleEndian = LittleEndian(eigenStateRegister);
+
+        // Applying a bitwise-XOR operation between a classical integer and an integer represented by a register of qubits.
+        ApplyXorInPlace(1, eigenStateRegisterLittleEndian);
+        let oracle = applyFindingOracle(randomGenerator, module, _, _);
+
+        // * QFT to estimate the frequency
+        use a = Qubit();
+        for index in bitsPrecision -1..-1..0 {
+            within {
+                H(a);
+            } apply {
+                Controlled oracle([a], (1 <<< index, eigenStateRegisterLittleEndian!));
+                // Applying a rotation about the |1> state by an angle specified as a dyadic fraction.
+                // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.intrinsic.r1frac
+                R1Frac(frequencyEstimation, bitsPrecision - 1 - index, a);
+            } if MResetZ(a) == One {
+                set frequencyEstimation += 1 <<< (bitsPrecision - 1 - index);
+            }
+        }
+        // Measuring the qubits and ensure they are in the |0⟩ state such that they can be safely released.
+        ResetAll(eigenStateRegister);
+        return frequencyEstimation;
+    }
+
+    operation applyFindingOracle (randomGenerator : Int, module: Int, power : Int, target: Qubit[] ) : Unit is Adj + Ctl{
+        Fact(IsCoprimeI(randomGenerator,module),"The guess number is `randomGenerator`, and the mudule is `module`.");
+
+        // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.arithmetic.multiplybymodularinteger
+
+        // Performing modular multiplication by an integer constant on a qubit register.
+        MultiplyByModularInteger(ExpModI(randomGenerator, power, module),module, LittleEndian(target));
+    }
+
+
+    operation shorImplementatonTest (n: Int): (Int, Int) {
+        // Trivial case: Even number
+        if n % 2 == 0 {
+            // Checking if there is a even number.
+            Message("Even number.");
+            return (n/2, 2);
+        }
+        
+        // Set up the unknown factors and set the default values.
+        mutable setUpFactors = false;
+        mutable defaultFactors = (1,1); 
+
+        // ! https://learn.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.random.drawrandomint
+        repeat {
+            let randomGenerator =  DrawRandomInt(2, n - 1); // ? IBM(2, N-1),  MICROSOT(1 < a < N-1)
+            // ! https://learn.microsoft.com/es-mx/qsharp/api/qsharp/microsoft.quantum.math.iscoprimei
+            if IsCoprimeI (randomGenerator,n) {
+                Message($"Guess number: {randomGenerator}");
+                let r = phaseEstimation(randomGenerator, n);
+                set (setUpFactors,defaultFactors) = possibleFactorsR(n, randomGenerator, r);
+            }  else {
+                let GCD = GreatestCommonDivisorI(n,randomGenerator);
+                Message($"Divisor guessed: {n} GCD: {GCD}.");
+                set setUpFactors = true;
+                set defaultFactors = (GCD, n/ GCD);
+            }
+        } until setUpFactors 
+        fixup {
+        Message("The estimated period did not return a valid factor.");
+        }
+        return defaultFactors;
+    }
+
+    operation possibleFactorsR (module: Int, randomGenerator: Int, r:Int) : (Bool, (Int, Int)) {
+        if r % 2 == 0 {
+            let halfExponentiation = ExpModI(randomGenerator, r/2, module);
+            if halfExponentiation != module - 1 {
+                let factor = MaxI (
+                    GreatestCommonDivisorI(halfExponentiation - 1, module),
+                    GreatestCommonDivisorI(halfExponentiation + 1, module)
+                );
+                return (true, (factor, module / factor));
+            } else {
+                return (false, (1,1));
+            }
+        } else {
+        return(false, (1,1));
+        } 
     }
 }
