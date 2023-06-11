@@ -37,6 +37,27 @@ n refers to a number, example:
 ```
 dotnet run -n15
 ```
+
+## What's Azure Quantum?
+
+Azure Quantum is a Microsoft Azure cloud service for running quantum computing programs and solving optimization problems. Azure Quantum provides the best development environment to create quantum algorithms for multiple platforms at once while preserving flexibility to tune the same algorithms for specific systems. 
+
+[See more](https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum)
+
+## Requirements
+1. Sign in to the [Azure Portal](https://portal.azure.com/)
+2. Azure Subscription
+3. Azure Storage Account
+  
+## How to run the code in Azure Quantum?
+1. Download the ```QuantumSuperpositionTest.ipynb``` in the ```Notebooks``` folder
+2. Go to Azure Portal 
+3. Select your Azure Quantum Workspace
+4. Go to ```operations``` and select ```Notebooks``` 
+5. Upload the ```QuantumSuperpositionTest.ipynb``` file
+6. Execute all cells
+
+
 By Ximena Toledo
 
 

@@ -124,7 +124,7 @@ namespace Shor_Algo {
     operation QPE (randomGenerator: Int, module: Int ) : Int {
     // Quantum Phase Estimation Algorithm
         
-    Fact(IsCoprimeI(randomGenerator,module),"El numero aleatorio es `randomGenerator` y el modulo es `module`.");
+    Fact(IsCoprimeI(randomGenerator,module),"El número aleatorio es `randomGenerator` y el modulo es `module`.");
 
     mutable result = 1;
 
@@ -171,7 +171,7 @@ namespace Shor_Algo {
             }
         } until setUpFactors 
         fixup {
-        Message("La estimación del periodo no retorna un factor valido.");
+        Message("La estimación del período no retorna un factor válido.");
         }
         return defaultFactors;
     }

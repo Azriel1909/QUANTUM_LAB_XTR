@@ -830,7 +830,7 @@ namespace Shor_Algo
         {
             var (randomGenerator,module) = __in__;
 #line 127 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
-            Microsoft__Quantum__Diagnostics__Fact.Apply((Microsoft__Quantum__Math__IsCoprimeI.Apply((randomGenerator, module)), "El numero aleatorio es `randomGenerator` y el modulo es `module`."));
+            Microsoft__Quantum__Diagnostics__Fact.Apply((Microsoft__Quantum__Math__IsCoprimeI.Apply((randomGenerator, module)), "El número aleatorio es `randomGenerator` y el modulo es `module`."));
 #line 129 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
             var result = 1L;
 #line 131 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
@@ -967,7 +967,7 @@ namespace Shor_Algo
 #line 167 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
                     var GCD = GCD_M3__.Apply((n, randomGenerator));
 #line 168 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
-                    Message__.Apply(String.Format("Divisor optenido: {0}, GCD: {1}.", n, GCD));
+                    Message__.Apply(String.Format("Divisor obtenido: {0}, GCD: {1}.", n, GCD));
 #line 169 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
                     setUpFactors = true;
 #line 170 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
@@ -981,7 +981,7 @@ namespace Shor_Algo
                 else
                 {
 #line 174 "/home/ximena/Documents/CODING/Q#/ShorAlgoClasicImplementation/Program.qs"
-                    Message__.Apply("La estimación del periodo no retorna un factor valido.");
+                    Message__.Apply("La estimación del período no retorna un factor válido.");
                 }
             }
 
