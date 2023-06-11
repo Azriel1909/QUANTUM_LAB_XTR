@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jvF+CjpREpy8kF3nLOm61QceWufQa7uC0RnHbHTNYWEfX3Jelp7Rlid6MuvoIC+hvclRPgK/zu/TdxgzvNR3lQ==",
+  "dgSpecHash": "lkccFFghwq0uzhLqodHsjGDJ+auWcqC1PN25hmawzikQbaivoQsSiroBNnuBSlyKAwOekn8Xr8at5WmmRmioyw==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/SuperpositionExample/SuperpositionExample.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/SuperpositionExample/SuperpositionExample.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

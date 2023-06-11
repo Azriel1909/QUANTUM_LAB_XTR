@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BNPzlFpWIvFgLUv//VSJg7WrX0XKB8QajI/wMWM1frEg5Vh7xOLEpn5RaweMS8cz6XbDGe2X49+fXd8ay4Ov+g==",
+  "dgSpecHash": "/FMA3IDqtxfBFAfkJFIhpDHHkL9q2MqgkB8UAed+PNqECculx88VjCGB8OKJKHgjtkp0quunTftaQ4Q7WxZlMw==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/Shor Algo/Shor Algo.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/Shor Algo/Shor Algo.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

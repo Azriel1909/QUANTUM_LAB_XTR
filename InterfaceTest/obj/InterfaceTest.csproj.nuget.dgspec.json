@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest.csproj": {}
+    "/home/ximena/Documents/CODING/Q#/InterfaceTest/InterfaceTest.csproj": {}
   },
   "projects": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest.csproj": {
+    "/home/ximena/Documents/CODING/Q#/InterfaceTest/InterfaceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest.csproj",
+        "projectUniqueName": "/home/ximena/Documents/CODING/Q#/InterfaceTest/InterfaceTest.csproj",
         "projectName": "InterfaceTest",
-        "projectPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest.csproj",
+        "projectPath": "/home/ximena/Documents/CODING/Q#/InterfaceTest/InterfaceTest.csproj",
         "packagesPath": "/home/ximena/.nuget/packages/",
-        "outputPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/obj/",
+        "outputPath": "/home/ximena/Documents/CODING/Q#/InterfaceTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ximena/.nuget/NuGet/NuGet.Config"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hdrh+bEJB37pGst2oRI8dtzx0fRv3zoxYBe51eAnTerODJxvCDHXfnB4dwa8VUYgL8I8cSGAbdVkDrRTUhzxtw==",
+  "dgSpecHash": "IUk3V6c9CnmEYpIDe7ftRVSqJhocNr9B3UAEwRIZGUNt5RbTiHxPm/t1jG/bqlnjYQJQw17IvfmoF5eBwSns+w==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/RelativePhasesTest/RelativePhasesTest.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/RelativePhasesTest/RelativePhasesTest.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

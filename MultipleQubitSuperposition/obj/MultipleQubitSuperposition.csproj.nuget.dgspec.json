@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj": {}
+    "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj": {}
   },
   "projects": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj": {
+    "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj",
+        "projectUniqueName": "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj",
         "projectName": "MultipleQubitSuperposition",
-        "projectPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj",
+        "projectPath": "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperposition/MultipleQubitSuperposition.csproj",
         "packagesPath": "/home/ximena/.nuget/packages/",
-        "outputPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperposition/obj/",
+        "outputPath": "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperposition/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ximena/.nuget/NuGet/NuGet.Config"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
         }
       }
     }

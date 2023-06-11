@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/QuantumHello.csproj": {}
+    "/home/ximena/Documents/CODING/Q#/QuantumHello/QuantumHello.csproj": {}
   },
   "projects": {
-    "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/QuantumHello.csproj": {
+    "/home/ximena/Documents/CODING/Q#/QuantumHello/QuantumHello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/QuantumHello.csproj",
+        "projectUniqueName": "/home/ximena/Documents/CODING/Q#/QuantumHello/QuantumHello.csproj",
         "projectName": "QuantumHello",
-        "projectPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/QuantumHello.csproj",
+        "projectPath": "/home/ximena/Documents/CODING/Q#/QuantumHello/QuantumHello.csproj",
         "packagesPath": "/home/ximena/.nuget/packages/",
-        "outputPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/obj/",
+        "outputPath": "/home/ximena/Documents/CODING/Q#/QuantumHello/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ximena/.nuget/NuGet/NuGet.Config"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
         }
       }
     }

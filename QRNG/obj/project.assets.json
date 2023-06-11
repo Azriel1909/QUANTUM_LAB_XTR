@@ -7176,11 +7176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/QRNG.csproj",
+      "projectUniqueName": "/home/ximena/Documents/CODING/Q#/QRNG/QRNG.csproj",
       "projectName": "QRNG",
-      "projectPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/QRNG.csproj",
+      "projectPath": "/home/ximena/Documents/CODING/Q#/QRNG/QRNG.csproj",
       "packagesPath": "/home/ximena/.nuget/packages/",
-      "outputPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/obj/",
+      "outputPath": "/home/ximena/Documents/CODING/Q#/QRNG/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ximena/.nuget/NuGet/NuGet.Config"
@@ -7252,7 +7252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
       }
     }
   }

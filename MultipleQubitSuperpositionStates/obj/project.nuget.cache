@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ERxD8xZdELyqstnW46v3FvkQSKU36C4iQpG28cwcuk3jwSKpU1VslFG5VIT8ZHZpvaKDW+gnhLC9KrcpKb6QQ==",
+  "dgSpecHash": "35U22vFOAFUU0mKun9Ngsf6OtzM2+rmyv1sTqrEyPH2WSLmDamlLmRdkSf1NqhxNn9F6BwfsWytL3nqJeOIWKA==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/MultipleQubitSuperpositionStates/MultipleQubitSuperpositionStates.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/MultipleQubitSuperpositionStates/MultipleQubitSuperpositionStates.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

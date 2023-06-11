@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLC6YEJHwKZUpbEpX4uUy/9vs18fpmCcFD38z88O4r1z05N3iEMzBsJ57839E1cNr29iZnQqgrme+MMaVMrVEQ==",
+  "dgSpecHash": "nM/km6FLhbQoUP1UlwwIPKK7o9XPjbVVvsRhEN33JKUIkjBGjyb57JAbyiPF9lesXt0JhO/o05VLjN87psUSlg==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QuantumHello/QuantumHello.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/QuantumHello/QuantumHello.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

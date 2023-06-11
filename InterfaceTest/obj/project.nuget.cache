@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JAW1C1jdA3rWLvShE7s4Ydu0VH1FPAH8pCGlYOr7nR9gEuYxbdxJ0hnuZDFrchsAdSA1I8IzAJQjMBntaftAyQ==",
+  "dgSpecHash": "yJIQq3mJG1nT9fANbcKndd2XGGTQFHrILRHs/lDevipPvc3i9ezmIZj2Pip/8NiRfePposux4gbK8vo5GxMfYQ==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/InterfaceTest/InterfaceTest.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/InterfaceTest/InterfaceTest.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

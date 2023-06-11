@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "llHoparVdi8ahyQKp27GxG3Znqr1r/UW5dOPWzKud6DB2Z2agNYszCpO1biY7VZIpXPWfkzNCofCZ4oL8VML4g==",
+  "dgSpecHash": "uCy1HjIoBYvYkWyVP9E7eqBqPf/vdJh0vsHHJBQVkCiibCUbxLnhb7xD5RMbyiythfVWe8bYgPphKjKNuaD4EA==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/BitGenerator/BitGenerator.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/BitGenerator/BitGenerator.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

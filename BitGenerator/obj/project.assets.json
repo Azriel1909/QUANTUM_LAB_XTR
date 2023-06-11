@@ -7176,11 +7176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/BitGenerator/BitGenerator.csproj",
+      "projectUniqueName": "/home/ximena/Documents/CODING/Q#/BitGenerator/BitGenerator.csproj",
       "projectName": "BitGenerator",
-      "projectPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/BitGenerator/BitGenerator.csproj",
+      "projectPath": "/home/ximena/Documents/CODING/Q#/BitGenerator/BitGenerator.csproj",
       "packagesPath": "/home/ximena/.nuget/packages/",
-      "outputPath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/BitGenerator/obj/",
+      "outputPath": "/home/ximena/Documents/CODING/Q#/BitGenerator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ximena/.nuget/NuGet/NuGet.Config"
@@ -7252,7 +7252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
       }
     }
   }

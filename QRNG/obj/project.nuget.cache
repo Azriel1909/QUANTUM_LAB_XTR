@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ar4KMEaUcTG1J6hKwylimjaEA6WNQt8HqM4cLOsfG/yG4le/ksJevCUtqgt64O3n1Hk73GHvPGL+wt5m5ZY9vQ==",
+  "dgSpecHash": "1E7zqXP+MNe58nyiQzLCNtPQMju1iesp0dyuFhNpWphENdPgrGUbR4GyAxLQ71dwyfIqHHj9rUQ9aV2K3fEN4Q==",
   "success": true,
-  "projectFilePath": "/home/ximena/Documents/CODING/QUANTUM_LAB_XTR/QRNG/QRNG.csproj",
+  "projectFilePath": "/home/ximena/Documents/CODING/Q#/QRNG/QRNG.csproj",
   "expectedPackageFiles": [
     "/home/ximena/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/ximena/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",
