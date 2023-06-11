@@ -66,7 +66,6 @@ ctrl + Enter
 3. ```%azure.execute``` Submits a job to an Azure Quantum workspace.
 4. ```%azure.jobs``` Displays a list of jobs in the current Azure Quantum workspace.
 
-
 By Ximena Toledo
 
 
