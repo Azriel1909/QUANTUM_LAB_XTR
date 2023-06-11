@@ -165,7 +165,7 @@ namespace Shor_Algo {
                 set (setUpFactors,defaultFactors) = FPF(n, randomGenerator, r);
             }  else {
                 let GCD = GCD_M3(n,randomGenerator);
-                Message($"Divisor optenido: {n}, GCD: {GCD}.");
+                Message($"Divisor obtenido: {n}, GCD: {GCD}.");
                 set setUpFactors = true;
                 set defaultFactors = (GCD, n/ GCD);
             }
