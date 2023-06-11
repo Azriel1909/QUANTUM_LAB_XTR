@@ -57,6 +57,15 @@ Azure Quantum is a Microsoft Azure cloud service for running quantum computing p
 5. Upload the ```QuantumSuperpositionTest.ipynb``` file
 6. Execute all cells
 
+```
+ctrl + Enter
+```
+## Commands
+1. ```%simulate``` Runs a operation on the QuantumSimulator target machine.
+2. ```%azure.target``` Specifying the execution target for Q# job submission in an Azure Quantum workspace.
+3. ```%azure.execute``` Submits a job to an Azure Quantum workspace.
+4. ```%azure.jobs``` Displays a list of jobs in the current Azure Quantum workspace.
+
 
 By Ximena Toledo
 
